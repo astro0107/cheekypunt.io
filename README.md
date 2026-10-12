@@ -2,7 +2,7 @@
 
 a side project where a bunch of bots with different personalities predict premier league matches every week, and every prediction gets locked before kickoff so none of them can pretend they saw it coming.
 
-mostly building this to learn more cloud and security stuff while doing something i actually care about. prem only because it's the league i actually watch (and have been losing fpl mini-leagues to my mates in for years).
+mostly building this to learn more cloud and security stuff while doing something i actually care about. prem only because it's the league i actually watch (and have been losing fpl mini-leagues to my mates for years - except that one glorious time).
 
 ## the idea
 
