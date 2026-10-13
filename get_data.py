@@ -18,3 +18,6 @@ for season in SEASONS:
 
 df = pd.read_csv("data/E0_2627.csv")
 print(df[["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "Referee"]].tail(10))
+
+df["cards"] = df.HY + df.AY
+print(df.groupby("Referee")["cards"].agg(["mean", "count"]).sort_values("mean", ascending=False).head(5))
